@@ -1,1 +1,28 @@
 /* write your override styles here */
+/* Remove unwanted styles */
+#wall {
+    background: white !important;
+    border: none !important;
+}
+
+/* Override the graffiti tags */
+.tag-1 {
+    display: none !important;
+}
+
+#tag-2 {
+    visibility: hidden !important;
+}
+
+#tag-3 {
+    background-color: white !important;
+    border: none !important;
+}
+
+#tag-4,
+#tag-5,
+#tag-6,
+#tag-7 {
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
